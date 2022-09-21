@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Blaka&family=Outfit:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "outfit" sans-serif;
+  padding: 3px;
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 4px 15px rgd(0, 0, 0, 2);
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  margin: 20px 0;
+}
+p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: rgb(83, 76, 76);
+}
+
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
